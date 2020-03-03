@@ -57,13 +57,10 @@ Manual Testing is done to ensure that the all functions are functional.
 *No* | *Steps* | *Expected Results* | *Observations*
 --- | --- | --- | ---
 1 | `On the Landing Page, click on the "Assign Me a Talent Hunter"`| `Link to the Company listing page and display all job listings`| **Pass** 
-
 2a | `Under the Company tab, Click on 'New Listing' yellow button located on top right` | `Display a new entry form for entering new listing information` | **Pass** 
 2b | `Enter the details in form and submit`|`Return to listing page (under Company tab) and new listing is added` | **Pass** 
-
 3a | `Under the Company tab, Click on 'Edit Listing' on right of each listing`|`Show a form to allow user to edit existing car details with current data pre-entered in field` | **Pass** 
 3b | `Edit the changes and click submit`|`Return to listing page (under Company tab) and the selected listing is updated` | **Pass** 
-
 4a | `Under the Company tab, Click on 'Remove Listing' on right of each listing` | `Information of the listing is retrieve and displayed, will prompt user to confirm the removal` | **Pass** 
 4b | `Click on 'Confirm Remove' on right of each listing` | `Return to listing page (under Company tab) and the selected listing has been removed` | **Pass** 
 
