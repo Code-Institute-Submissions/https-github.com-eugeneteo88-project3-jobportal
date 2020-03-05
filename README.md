@@ -64,11 +64,11 @@ Test Results as follows :
 4a | `Under the Company tab, Click on 'Remove Listing' on right of each listing` | `Information of the listing is retrieve and displayed, will prompt user to confirm the removal` | **Pass** 
 4b | `Click on 'Confirm Remove' on right of each listing` | `Return to listing page (under Company tab) and the selected listing has been removed` | **Pass** 
 5a | `From Home Page - Click on 'Companies' tab` | `Switch to Employer Page with hyperlink 'https://proj3-job-listing.herokuapp.com/employer' and display database listing with New Listing / Edit / Remove Button` | **Pass** 
- | `From Home Page  - Click on 'Job Seekers' tab` | `Switch to Job Seeker Page with hyperlink 'https://proj3-job-listing.herokuapp.com/employee' and display database listing only` | **Pass** 
+5a | `From Home Page  - Click on 'Job Seekers' tab` | `Switch to Job Seeker Page with hyperlink 'https://proj3-job-listing.herokuapp.com/employee' and display database listing only` | **Pass** 
 5b | `From Job Seeker Page - Click on 'Home' or 'JTE Recruit' tab` | `Switch to Landing Page with hyperlink 'https://proj3-job-listing.herokuapp.com'` | **Pass** 
- | `From Job Seeker Page  - Click on 'Companies' tab` | `Switch to Employer Page with hyperlink 'https://proj3-job-listing.herokuapp.com/employer' and display database listing with New Listing / Edit / Remove Button` | **Pass** 
+5b | `From Job Seeker Page  - Click on 'Companies' tab` | `Switch to Employer Page with hyperlink 'https://proj3-job-listing.herokuapp.com/employer' and display database listing with New Listing / Edit / Remove Button` | **Pass** 
 5c | `From Employer Page - Click on 'Home' tab` | `Switch to Landing Page with hyperlink 'https://proj3-job-listing.herokuapp.com'` | **Pass** 
- | `From Employer Page  - Click on 'Job Seekers' tab` | `Switch to Job Seeker Page with hyperlink 'https://proj3-job-listing.herokuapp.com/employee' and display database listing only` | **Pass** 
+5c | `From Employer Page  - Click on 'Job Seekers' tab` | `Switch to Job Seeker Page with hyperlink 'https://proj3-job-listing.herokuapp.com/employee' and display database listing only` | **Pass** 
 
 
 #### Deployment
@@ -80,6 +80,7 @@ Regular commits are push to the Github subsequently push to heroku to deploy.
 .gitignore file is added to remove files that are not required or files that we do not wish to be uploaded to Github
 
 _Deploy Heroku:_
+
 i) Install Heroku using bash
 ii) Login to Heroku
 iii) Install gunicorn
